@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>js-dom</title>
+</head>
+
+<body>
+   
+    <div class="bigContainer">
+        <header ><h1 class="header-title">5  <span class="tittle-frontend">Front-end</span> frameworks</h1></header>
+    <div class="container">
+        <nav>
+            <ul class="menu">
+                <li><a href="#" id="rea" class="menu-text selectedFramework "onclick="changeContent('react','rea')">REACT</a> </li>
+                <li><a href="#" id="ang" class="menu-text " onclick="changeContent('angular','ang')">ANGULAR</a></li>
+                <li><a href="#" id="vue" class="menu-text " onclick="changeContent('vuejs','vue')">VUE</a></li>
+                <li><a href="#" id="sve" class="menu-text " onclick="changeContent('svelte','sve')">SVELTE</a></li>
+                <li><a href="#" id="jqe" class="menu-text " onclick="changeContent('jQuery','jqe')">JQUERY</a></li>
+            </ul>
+        </nav>
+
+        <article id="react" class="main active">
+            <img src="icons/react.png" alt="React" class="icon-title">
+            <div class="comparation-table">
+                <ul class="comp-table-content">
+                    <li class="pros-cons">Advantages</li>
+                    <li>Reusability of components</li>
+                    <li>Consistent and seamless perfomance</li>
+                    <li>React hooks allows to wrtite components without classes and hence, easy to learn</li>
+                    <li>React dev tool are advanced and super useful</li>
+                </ul>
+                <ul class="comp-table-content">
+                    <li class="pros-cons">Disadvantages</li>
+                    <li>Multiple and constant updates</li>
+                    <li>Complexities of JSX are hard to learn while beginning with the framework</li>
+                    <li>It only gives frontend solutions</li>
+                </ul> 
+            </div>
+        </article>
+
+        <article id="angular" class="main ">
+            <img src="icons/angular.png" alt="Angular" class="icon-title">
+            <div class="comparation-table">
+                <ul class="comp-table-content">
+                    <li class="pros-cons">Advantages</li>
+                    <li>In-built two-way data binding</li>
+                    <li>Less coding</li>
+                    <li>Decoupling of components</li>
+                    <li>Reusable components</li>
+                </ul>
+                <ul class="comp-table-content">
+                    <li class="pros-cons">Disadvantages</li>
+                    <li>Harder at learning</li>
+                    <li>Code structure and size are complex in large-scale apps.</li>
+
+                </ul> 
+            </div>
+        </article>
+
+        <article id="vuejs" class="main ">
+            <img src="icons/vue.png" alt="Vue" class="icon-title">
+            <div class="comparation-table">
+                <ul class="comp-table-content">
+                    <li class="pros-cons">Advantages</li>
+                    <li>Extensive and detailed documentation</li>
+                    <li>Simple syntax</li>
+                    <li>Flexibility to design the app structure</li>
+                    <li>Typescript support</li>
+                </ul>
+                <ul class="comp-table-content">
+                    <li class="pros-cons">Disadvantages</li>
+                    <li>Lack of stability in components</li>
+                    <li> Relatively small community</li>
+                </ul > 
+            </div>
+        </article>
+
+        <article id="svelte" class="main ">
+            <img src="icons/svelve.png" alt="Svelte" class="icon-title">
+            <div class="comparation-table">
+                <ul class="comp-table-content">
+                    <li class="pros-cons">Advantages</li>
+                    <li>Better reactivity</li>
+                    <li>Faster than any other framework like Angular or React</li>
+                    <li>Latest of all</li>
+                    <li>Scalable framework</li>
+                    <li>Lightweight, simple and uses the existing javascript libraries</li>
+                </ul>
+                <ul class="comp-table-content">
+                    <li class="pros-cons">Disadvantages</li>
+                    <li>Small community</li>
+                    <li>Lack of support</li>
+                    <li>Lack of tooling</li>
+                    <li>Its not popular yet</li>
+                </ul> 
+            </div>
+        </article>
+
+        <article id="jQuery" class="main">
+            <img src="icons/jquery.png" alt="" class="icon-title">
+            <div class="comparation-table">
+                <ul class="comp-table-content">
+                    <li class="pros-cons">Advantages</li>
+                    <li>DOM is flexible for adding or removing the elements</li>
+                    <li>Sending HTTP request is simplified</li>
+                    <li>Facilitates dynamic content</li>
+                    <li>HTTP requests are simplified</li>
+                </ul>
+                <ul class="comp-table-content">
+                    <li class="pros-cons">Disadvantages</li>
+                    <li>Comparatively slow working capability</li>
+                    <li>Many advanced alternatives are available</li>
+                    <li>The APIs of document object model are obsolete</li>
+                </ul> 
+            </div>
+        </article>
+       
+    </div>
+    <footer class="my-footter"> 2022</footer>
+</div>
+    <script src="myScript.js"></script>
+</body>
+</html>
