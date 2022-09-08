@@ -3,7 +3,6 @@ body {
     padding: 0;
     height: 100vh;
 }
-
 /*--------HEADER----------------*/
 
 .header-title {
@@ -60,37 +59,23 @@ body {
     height: auto;
 }
 .main {
-    display: none;
     background-color: #F5F5F6;
     width: 100%;
     text-align: center;
+    min-height: 650px;
 }
-.icon-title{
+.main-icon{
     width: 70px;
     height: 70px;
     margin:5%;
 }
-
-.comparation-table{
-    display: flex;
-    flex-direction: column;
-    font-size: 2vw;
-}
-
-.comp-table-content{
-    text-align: start;
- margin-left: 10%;
-}
-.pros-cons{
-    list-style: none;
-    font-size: larger;
-    font-weight: bold;
-}
-.active {
-    display: block;
+.main-text{
+    font-size: 1.5em;
+    padding: 15px;
 }
 
 /*----foooter-------*/
+
 .my-footter {
     color: white;
     background-color: black;
@@ -110,17 +95,11 @@ body {
         margin-top: 5%;
         height: auto;
     }
-
     .menu-text {
         font-size: 4vw;
         width: 100%;
     }
     .selectedFramework {
-        border-style: none none solid none;
-    }
-
-    .comparation-table{
-        font-size: 3vw;
-    }
-
+    } 
 }
+
